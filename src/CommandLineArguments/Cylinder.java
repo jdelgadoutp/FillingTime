@@ -138,7 +138,7 @@ public class Cylinder {
 		setTime((cylinderVolume / rainVolume));
 		// se redondea con dos decimales el tiempo de llenado
 		setTime(Math.rint(time * 1000) / 1000);
-		System.out.println("El tiempo de llenado es de = " + getTime() + " horas");
+		System.out.println("El tiempo de llenado es de : " + getTime() + " horas");
 
 	}
 
